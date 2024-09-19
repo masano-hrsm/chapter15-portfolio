@@ -621,15 +621,29 @@ margin: 0 0 20px;
 /* メイン画像 */
 .main-view {
   max-width: 100%;
-  /* height: 100vh; */
   background-image: url(../images/concept_ph01.jpg);
   background-size: cover;
   background-position: bottom;
   overflow: visible;
   padding: 30vh 50px;
-  background-attachment: fixed;
-  /* margin-bottom: 100px; */
+  /* background-attachment: fixed; */
 }
+/* .main-view {
+  max-width: 100%;
+  padding: 30vh 50px;
+}
+.main-view::before {
+content: "";
+display: block;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+height: 80vh;
+background: url(../images/concept_ph01.jpg) bottom no-repeat;
+background-size: cover;
+} */
 
 .main-view p {
   text-align: center;
@@ -646,6 +660,7 @@ margin: 0 0 20px;
 
 #graphic-design {
   margin-bottom: 200px;
+  background-color: #fff;
 }
 
 /* メイン画像ここまで */
