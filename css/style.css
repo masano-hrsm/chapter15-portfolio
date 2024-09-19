@@ -626,7 +626,7 @@ margin: 0 0 20px;
   background-position: bottom;
   overflow: visible;
   padding: 30vh 50px;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 /* .main-view {
   max-width: 100%;
